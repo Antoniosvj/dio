@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; /*não aparecer o quadrado quando aperta tab*/
+    font-family: "Poppins", sans-serif;
+}
