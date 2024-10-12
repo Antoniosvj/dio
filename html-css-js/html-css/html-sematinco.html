@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML5 - Estrutural</title>
+
+    <!--css-->
+    <style>
+        header{
+            display: flex;
+            background-color: aqua;
+            align-items: center;
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        nav ul li a:hover{
+            color:#d6d6d6
+        }
+        main{
+            background-color: #d6d6d6;
+        }
+        aside{
+            position: absolute;
+            right: 0;
+            background-color: aquamarine;
+        }
+        article{
+            border: 1px solid #fff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h2>Cabeçalho</h2>
+        <!--links de navegação, poder ser usado em qualquer parte do navegador-->
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="tel:+5528999043227">Telefone</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--corpo principal-->
+    <main>
+        principal
+        <!---->
+        <aside>
+            <h3>aside não é o assunto principal</h3>
+            <p>separado do conteúdo</p>
+            <p>não tem ligação direta</p>
+            <p>geralmente barra lateral</p>
+            <p>avisos, biografia do autor</p>
+        </aside>
+        <!--lista de sessões-->
+        <section>
+            <h1>Sessão de informações</h1>
+            <p>assunto principal da pagina</p>
+        </section>
+        <!--estrutura generica-->
+        <div>
+            <h2>Conteúdo generico</h2>
+        </div>
+        <!--artigo-->
+        <article>
+            <h2>Article</h2>
+            <p>conteúdo relacionado a pagina em si</p>
+            <p>coloca a materia em si</p>
+            <article>relacionado ao article anterior</article>
+        </article>
+        <article>
+            <p>Qual o seu prato favorito</p>
+            <article>
+                <p>Churrasco</p>
+            </article>
+        </article>
+        <article>
+            <!--titulo-->
+            <h1>Titulo</h1>
+            <!--paragrafo,time ajuda na indecção-->
+            <p>artigo publicado em <time pubdate>26/09/2024</time></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ullam hic, voluptates nulla quod dignissimos exercitationem perspiciatis, illo optio nisi suscipit quo dolores nobis modi? Odio perferendis tempora sapiente qui.</p>
+            <!--citação, dentro do cite pode colocar o link da citação-->
+            <blockquote cite="http://">tempora sapiente lasdnioi9fmaodmnaiofdnmdfg</blockquote>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias obcaecati consequuntur in modi corrupti natus nemo,<q cite="http://">citação pequena no meio da pagina</q> impedit ut pariatur labore voluptatibus vel! Cum nobis quasi, impedit possimus omnis recusandae. Fugit!</p>
+            
+        </article>
+
+        <!--container de figuras-->
+        <figure>
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/2-sol.jpg" alt="Sol">
+            <!--descrição-->
+            <figcaption>
+                descrição do sol, poder ser um video no lugar da imagem
+            </figcaption>
+        </figure>
+        <picture>
+            <!--posso colocar multipla fonte para mesma imagem-->
+            <source srcset="https://static.vecteezy.com/ti/vetor-gratis/p3/21644432-sol-desenho-animado-plano-estilo-criancas-estilo-vetor.jpg" width="300" media="(min-width: 500px)">
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/2-sol.jpg" alt="">
+        </picture>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <h2>footer</h2>
+        <!--tag endereço-->
+        <address>Rua José januário Cardoso 22</address>   
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.banner {
+    width: 100%;
+    height: 605px;
+    border-bottom: 1px solid #33a8db;
+    background-image: linear-gradient(0deg, rgba(4, 4, 4, 1)0%, rgba(16, 39, 53, 0.6)50%, rgba(4, 4, 4, 0.5)100%), url('./assets/images/banner.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner-content {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 248px;
+    height: 214px;
+}
+
+.banner-content h1 {
+    color: #33a8db;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49.96px;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 23.48px;
+}
+
+.banner-content button {
+    border: 2px solid #33a8db;
+    /*falta colocar linear gradiente*/
+    padding: 19px 46px;
+    color: #31a8dd;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 21%;
+    text-align: center;
+    background-color: transparent;
+}
+
+#course-content {
+    margin: 118px 324px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#course-content h2 {
+    color: #33a8db;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19rem;
+    margin-bottom: 24px;
+}
+
+.module-list {
+    margin-bottom: 90px;
+}
+
+.module {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 535px;
+    height: 51px;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(25, 25, 25, 1) 20%, rgba(24, 24, 24, 1) 80%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(25, 25, 25, 1) 20%, rgba(24, 24, 24, 1) 80%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(25, 25, 25, 1) 20%, rgba(24, 24, 24, 1) 80%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    border: 1px solid #33a8db;
+    border-radius: 50px;
+    font-weight: 400;
+    line-height: 18.78px;
+    margin-bottom: 24px;
+    gap: 5px
+}
+
+.module span {
+    color: #31a8dd;
+    text-align: center;
+}
+
+#transform-world {
+    height: 363px;
+    padding-top: 111px;
+    padding-left: 198px;
+    border-top: 1px solid #33a8db;
+    border-bottom: 1px solid #33a8db;
+    background-image: url('./assets/images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /*fixa a imagem no fundo*/
+}
+
+#transform-world p {
+    width: 244px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 46.96px;
+    text-shadow: 3px 2px #33a8db;
+    /*sombra texto*/
+}
+
+#professional-challenges {
+    width: 792px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 76px auto 91px;
+}
+
+#professional-challenges h2 {
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19rem;
+    text-align: center;
+    color: #33a8db
+}
+
+#professional-challenges img {
+    width: 659px;
+    margin-bottom: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border-top: 1px solid #33a8db;
+    background: rgb(51, 168, 219);
+    background: -moz-linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#33a8db", endColorstr="#33a8db", GradientType=1);
+}
+
+footer img{
+    width: 310px;
+    height: 44px;
+}
+
+footer p a{
+    color:#33a8db;
+    font-weight: 700;
+    text-decoration: none;
+}
